@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Italian Serie A News</string>
+    <string name="image_description">Image</string>
+    <string name="text_subtitle">Sample of subtitle text</string>
+    <string name="something_wrong">Oops.. something went wrong</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_favorite">Favorite</string>
+    <string name="logo">logo</string>
+    <string name="fab">FAB</string>
+    <string name="detail">Detail</string>
+    <string name="indicator">indicator</string>
+    <string name="title_favorite">Module Title</string>
+    <string name="header_favorite">Favorite Team</string>
+    <string name="title_feedback">FeedbackModule</string>
+    <string name="feedback">Send Feedback</string>
+    <string name="maximum_feedback">Maximum Character is 10th</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

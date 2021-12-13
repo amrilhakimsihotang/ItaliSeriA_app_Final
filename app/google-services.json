@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "604383623335",
+    "project_id": "italiseria-app",
+    "storage_bucket": "italiseria-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604383623335:android:e4beaf1b967204ff884382",
+        "android_client_info": {
+          "package_name": "com.amrilhs.italiseria_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "604383623335-0qkpqdvkoaian0d3c8gnulmtcvc4p29h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amrilhs.italiseria_app",
+            "certificate_hash": "8804130d381b07fbdb8d2e4a83d9a97c4ae76f00"
+          }
+        },
+        {
+          "client_id": "604383623335-vfp4u2lgqmsbke3u0dfkq6go48nj1std.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtqLMrmLbjBmuoPy438pI7hrYEXCDGhLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "604383623335-vfp4u2lgqmsbke3u0dfkq6go48nj1std.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

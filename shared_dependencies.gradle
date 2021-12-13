@@ -1,0 +1,37 @@
+dependencies {
+    api "androidx.appcompat:appcompat:$appcompat_version"
+    api "com.google.android.material:material:1.4.0"
+    implementation "androidx.core:core-ktx:$core_ktx_version"
+    api "androidx.constraintlayout:constraintlayout:$constraint_version"
+    implementation "androidx.legacy:legacy-support-v4:$legacy_support_version"
+    testImplementation "junit:junit:4.13.2"
+    androidTestImplementation "androidx.test.ext:junit:$androidx_junit_version"
+    androidTestImplementation "androidx.test.espresso:espresso-core:3.4.0"
+    implementation "androidx.multidex:multidex:$multidex_version"
+
+    implementation "androidx.cardview:cardview:$cardview_version"
+    implementation "androidx.recyclerview:recyclerview:$recyclerview_version"
+    implementation "com.google.android.material:material:$material_version"
+    implementation "com.github.bumptech.glide:glide:$glide_version"
+
+    implementation "com.google.dagger:hilt-android:$hilt_version"
+    kapt "com.google.dagger:hilt-android-compiler:$hilt_version"
+    implementation "androidx.hilt:hilt-lifecycle-viewmodel:$hilt_jetpack_version"
+    kapt "androidx.hilt:hilt-compiler:$hilt_jetpack_version"
+    kaptAndroidTest "androidx.hilt:hilt-compiler:$hilt_jetpack_version"
+
+    //shimmer
+    implementation "com.facebook.shimmer:shimmer:0.5.0"
+    implementation "com.airbnb.android:lottie:$lottie_version"
+
+    // library dasar rxjava
+    api "io.reactivex.rxjava2:rxjava:$rxjava_version"
+    // library untuk memudahkan threading di Android
+    api "io.reactivex.rxjava2:rxandroid:$rxandroid_version"
+    api "com.jakewharton.rxbinding2:rxbinding:$rxbinding_version"
+    // opsional : library tambahan dengan tambahan extension function pada Kotlin
+    api "io.reactivex.rxjava2:rxkotlin:$rxkotlin_version"
+
+    api 'com.google.firebase:firebase-database-ktx:20.0.3'
+    api 'com.google.firebase:firebase-analytics:20.0.1'
+}

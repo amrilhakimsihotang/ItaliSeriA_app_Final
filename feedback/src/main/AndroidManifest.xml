@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.amrilhs.italiseria_app.feedback">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <dist:module
+        dist:instant="false"
+        dist:title="@string/title_feedback">
+        <dist:delivery>
+            <dist:install-time />
+        </dist:delivery>
+
+        <dist:fusing dist:include="true" />
+    </dist:module>
+
+    <application>
+        <activity
+            android:name=".FeedbackActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="feedback"
+                    android:scheme="italiseria" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

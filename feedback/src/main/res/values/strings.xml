@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_your_feedback">Enter your Feedback</string>
+    <string name="send_feedback">Send Feedback</string>
+    <string name="are_you_satisfied_with_this_application">Are you satisfied with this Application?</string>
+    <string name="SendFeedback">Send Feedback</string>
+    <string name="maximum_feedback">Minimum Character is 10th</string>
+
+
+</resources>
