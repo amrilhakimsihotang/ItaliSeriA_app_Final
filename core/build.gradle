@@ -57,7 +57,7 @@ dependencies {
     implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
     implementation "com.squareup.okhttp3:logging-interceptor:$logging_interceptor_version"
 
-    //coroutine
+
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlin_coroutines_version"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlin_coroutines_version"
 
@@ -73,7 +73,6 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
     api "androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version"
 
-    //sqlcipher
     implementation "net.zetetic:android-database-sqlcipher:$sqlchiper_version"
     implementation "androidx.sqlite:sqlite-ktx:$sqlite_ktx_version"
 

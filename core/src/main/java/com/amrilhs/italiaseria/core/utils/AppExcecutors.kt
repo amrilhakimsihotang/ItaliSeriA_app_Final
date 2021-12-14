@@ -8,7 +8,7 @@ import javax.inject.Inject
 class AppExcecutors @VisibleForTesting constructor(
     private val diskIO: Executor
 ) {
- @Inject
+    @Inject
     constructor() : this(
         Executors.newSingleThreadExecutor()
     )

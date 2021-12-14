@@ -20,16 +20,13 @@ dependencies {
     kapt "androidx.hilt:hilt-compiler:$hilt_jetpack_version"
     kaptAndroidTest "androidx.hilt:hilt-compiler:$hilt_jetpack_version"
 
-    //shimmer
     implementation "com.facebook.shimmer:shimmer:0.5.0"
     implementation "com.airbnb.android:lottie:$lottie_version"
 
-    // library dasar rxjava
     api "io.reactivex.rxjava2:rxjava:$rxjava_version"
-    // library untuk memudahkan threading di Android
+
     api "io.reactivex.rxjava2:rxandroid:$rxandroid_version"
     api "com.jakewharton.rxbinding2:rxbinding:$rxbinding_version"
-    // opsional : library tambahan dengan tambahan extension function pada Kotlin
     api "io.reactivex.rxjava2:rxkotlin:$rxkotlin_version"
 
     api 'com.google.firebase:firebase-database-ktx:20.0.3'

@@ -4,7 +4,8 @@
     package="com.amrilhs.italiseria_app"
     tools:ignore="AllowBackup">
 
-    <uses-permission android:name="android.permission.INTERNET"
+    <uses-permission
+        android:name="android.permission.INTERNET"
         tools:ignore="AllowBackup" />
 
     <application

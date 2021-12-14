@@ -62,6 +62,7 @@ class SeriaAdapter : RecyclerView.Adapter<SeriaAdapter.ListViewHolder>() {
         listData.addAll(newListData)
         notifyDataSetChanged()
     }
+
     companion object {
 
         const val SCREEN_W: Int = 800
