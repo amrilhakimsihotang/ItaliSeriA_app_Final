@@ -35,8 +35,6 @@ class SeriaAdapter : RecyclerView.Adapter<SeriaAdapter.ListViewHolder>() {
 
         init {
             binding.root.setOnClickListener {
-            //change the adapterPosition because it is deprecated
-            // onItemClick?.invoke(listData[adapterPosition])
                 onItemClick?.invoke(listData[absoluteAdapterPosition])
             }
         }

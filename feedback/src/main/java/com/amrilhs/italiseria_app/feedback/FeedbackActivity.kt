@@ -23,7 +23,7 @@ class FeedbackActivity : AppCompatActivity() {
         feedbackBinding.btSendFeedBack.isEnabled = false
         val descFeedbackStream = RxTextView.textChanges(feedbackBinding.editTextTextMultiLine)
             .skipInitialValue()
-            .map { desc -> desc.length < 10 }//development stage, I will be setup  the minimum length=10. default  is 5000 char.
+            .map { desc -> desc.length < 100 }
         descFeedbackStream.subscribe {
 
             showMinimalDescFeedback(it)

@@ -4,7 +4,6 @@ import android.os.Parcelable
 //import kotlinx.android.parcel.Parcelize
 import kotlinx.parcelize.Parcelize
 
-//recommendation from the reviewer team - reformat Code
 @Parcelize
 data class SeriAModel(
 

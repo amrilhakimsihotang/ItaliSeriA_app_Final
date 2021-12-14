@@ -7,8 +7,7 @@ import javax.inject.Inject
 
 class ViewModelFactory @Inject constructor(private val seriaUseCase: SeriAUseCase) :
     ViewModelProvider.NewInstanceFactory() {
-    //recommendation from the reviewer team -
-    // avoid the @supprise that really does not necessary anymore
+
     @Suppress("UNCHECKED_CAST")
     override fun <T : ViewModel> create(modelClass: Class<T>): T =
         when {

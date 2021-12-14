@@ -50,8 +50,6 @@ class DetailItaliSeriaActivity : AppCompatActivity() {
                 .error(R.drawable.ic_baseline_error_24)
                 .into(detailItaliSeriaBinding.ivDetailImage)
 
-            //recommendation from the reviewer team -2
-            //To avoid writing repeated bindings, we recommend using the scope function apply / with :
             detailItaliSeriaBinding.apply {
                 content.tvDetailDescription.text = detailItaliaSeriA.strDescriptionEN
                 strTeam.text = detailItaliaSeriA.strTeam + ", " + detailItaliaSeriA.intFormedYear
@@ -105,11 +103,6 @@ class DetailItaliSeriaActivity : AppCompatActivity() {
         onBackPressed()
         return true
     }
-
-    //recommendation from the reviewer team -1
-    //Companion object should be written at the
-    // bottom of a class according to the Kotlin coding conventions in the link
-    //https://kotlinlang.org/docs/coding-conventions.html#formatting
 
     companion object {
         const val INTENT_DATA = "intent_data"

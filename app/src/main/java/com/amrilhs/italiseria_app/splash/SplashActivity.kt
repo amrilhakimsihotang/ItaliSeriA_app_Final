@@ -18,7 +18,7 @@ class SplashActivity : AppCompatActivity() {
         val background = object : Thread() {
             override fun run() {
                 try {
-                    sleep(SLEEP_TIME) //recommendation from the reviewer team -avoid a magic number
+                    sleep(SLEEP_TIME)
                     val mIntent = Intent(baseContext, MainActivity::class.java)
                     startActivity(mIntent)
                     this@SplashActivity.finish()
